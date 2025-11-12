@@ -30,6 +30,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 
 if any error came u can do this 
-docker compose down
+docker compose down -v
 >> docker compose up -d
+docker ps to check
 
